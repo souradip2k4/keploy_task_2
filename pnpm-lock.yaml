@@ -44,13 +44,12 @@ importers:
       multer:
         specifier: ^1.4.5-lts.1
         version: 1.4.5-lts.2
+      nodemon:
+        specifier: ^3.1.10
+        version: 3.1.10
       prettier:
         specifier: ^3.3.3
         version: 3.5.3
-    devDependencies:
-      nodemon:
-        specifier: ^3.1.4
-        version: 3.1.10
 
 packages:
 
