@@ -27,15 +27,6 @@ const generateAccessTokenAndRefreshToken = async (userId) => {
 };
 
 const registerUser = asyncHandler(async (req, res) => {
-  // get user details from frontend
-  // validation - not empty
-  // check whether the user is already registered using username and email
-  // check for images and check for avatars
-  // upload avatar and coverImage to cloudinary
-  // create an user object and upload to db
-  // remove password and refresh token filed from response
-  // check user
-  // return res
 
   // console.log(fullName);generateAccessTokenAndRefreshToken
 
@@ -116,13 +107,6 @@ const registerUser = asyncHandler(async (req, res) => {
 });
 
 const loginUser = asyncHandler(async (req, res) => {
-  // req body data
-  // get username or email
-  // find the user
-  // password check
-  // access and refresh token
-  // send cookie
-
   const {username, email, password} = req.body;
   console.table([username, email, password]);
 
