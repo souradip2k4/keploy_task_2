@@ -2,7 +2,10 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-
+import dotenv from "dotenv";
+dotenv.config({
+  path: './.env' // Explicitly point to the .env file in the root
+});
 const app = express();
 
 app.use(
